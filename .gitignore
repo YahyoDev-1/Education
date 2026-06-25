@@ -1,0 +1,71 @@
+# === Django va Python ===
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.cfg
+*.json
+db.sqlite3
+db.sqlite3-journal
+
+# === Virtual Muhit (Virtual Environment) ===
+.venv/
+venv/
+env/
+ENV/
+Ch环境/
+bin/
+lib/
+include/
+pip-selfcheck.json
+
+# === Maxfiy Ma'lumotlar (Environment Variables) ===
+.env
+*.env
+.env.[a-zA-Z0-9]*
+!*.env.example
+.secret
+.secrets
+
+# === Media va Statik Fayllar ===
+staticfiles/
+media/
+/media/
+/static/
+# Agar statik fayllarni boshqa joyga yigsangiz, uni ham kiriting
+
+# === IDE va Matn Muharrirlari (Editors) ===
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+.DS_Store
+
+# === Testlar va Hisobotlar ===
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# === Paketlar va Prefikslar ===
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+dist/
+build/
+
+# === Log Fayllar ===
+*.log
+logs/
+*.pid
